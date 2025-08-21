@@ -207,6 +207,7 @@ public class Startup
                     Perfil = administrador.Perfil
                 });
                 
+                
             })
             .RequireAuthorization()
             .RequireAuthorization(new AuthorizeAttribute { Roles = "Adm" })
